@@ -13,29 +13,33 @@ import DatePick from './Components/DatePick';
 import VideoPlayer from './Components/VideoPlayer';
 import ReactSpiners from './Components/ReactSpiners';
 import LineChart from './Components/LineChart';
+import UseStateWithObjects from './Components/UseStateWithObjects';
+import UseStateWithArray from './Components/UseStateWithArray';
 
 
 function App() {
   return (
-    // <IconContext.Provider value={{color:'Purple', size:'30rem'}}>
+    
     <div className="App">
-     {/* <FaBeer />
-     <FaAtlassian/> */}
-     {/* <Notification/> */}
-     {/* <Model/> */}
+     {/* <FaBeer /> */}
+     {/* <FaAtlassian/> */}
      {/* <Tooltip/> */}
+     {/* <LineChart/> */}
+     {/* <Notification/> */}
+     {/* <ReactSpiners/> */}
+     {/* <Model/> */}
      {/* <Count/> */}
      {/* <IdelaTimer/> */}
      {/* <Colorpicker/> */}
-     {/* <CreditCard/> */}
      {/* <DatePick/> */}
      {/* <VideoPlayer/> */}
-     <ReactSpiners/>
-     {/* <LineChart/> */}
+     {/* <CreditCard/> */}
+     {/* <UseStateWithObjects/> */}
+     <UseStateWithArray/>
      
      
     </div>
-    // </IconContext.Provider>
+   
   );
 }
 
