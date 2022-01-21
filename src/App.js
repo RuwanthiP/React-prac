@@ -15,6 +15,13 @@ import ReactSpiners from './Components/ReactSpiners';
 import LineChart from './Components/LineChart';
 import UseStateWithObjects from './Components/UseStateWithObjects';
 import UseStateWithArray from './Components/UseStateWithArray';
+import UseeffectOne from './Components/UseeffectOne';
+import HookMouse from './Components/HookMouse';
+import MouseContainer from './Components/MouseContainer';
+import IntervelHookcounter from './Components/IntervelHookcounter';
+import Datafetching from './Components/Datafetching';
+import SingleDataFetch from './Components/SingleDataFetch';
+import ComponentC from './Components/ComponentC'
 
 
 function App() {
@@ -35,7 +42,14 @@ function App() {
      {/* <VideoPlayer/> */}
      {/* <CreditCard/> */}
      {/* <UseStateWithObjects/> */}
-     <UseStateWithArray/>
+     {/* <UseStateWithArray/> */}
+     {/* <UseeffectOne/> */}
+     {/* <HookMouse/> */}
+     {/* <MouseContainer/> */}
+     {/* <IntervelHookcounter/> */}
+     {/* <Datafetching/> */}
+    {/* <SingleDataFetch/> */}
+    <ComponentC/>
      
      
     </div>
